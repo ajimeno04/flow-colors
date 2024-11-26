@@ -12,8 +12,8 @@ const lightPalette = {
   secondary: {
     dark: '#0FDA6D',
     main: '#5FDDFF',
-    light: '#B0FFC9',
-    background: '#EFFFF4',
+    light: '#C0FFFB',
+    background: '#C0FFFB',
   },
   border: {
     main: '#A1A3A7',
@@ -48,7 +48,7 @@ const lightPalette = {
     default: '#F4F4F4',
     main: '#F4F4F4',
     paper: '#FFFFFF',
-    light: '#EFFFF4',
+    light: '#C0FFFB',
   },
   backdrop: {
     main: '#636669',
