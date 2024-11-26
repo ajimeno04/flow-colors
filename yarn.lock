@@ -4799,6 +4799,11 @@
     memoizerific "^1.11.3"
     util-deprecate "^1.0.2"
 
+"@storybook/components@8.2.10":
+  version "8.2.10"
+  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-8.2.10.tgz#2cfef767ecc60e993d4ebf550b2ce974870f34c2"
+  integrity sha512-g6wXLxlwgPn2Ijy7lO5bibYlOVyz+5DeOOv8T3qgR1NRLUGuYRfbSTuWM9lSeJpWFDkuYMdYm5dY/PDrF0ofvQ==
+
 "@storybook/core-common@8.0.6":
   version "8.0.6"
   resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-8.0.6.tgz#5fcd551a3498a052e198a80afb9fa18861e610c2"
@@ -4964,6 +4969,11 @@
     telejson "^7.2.0"
     ts-dedent "^2.0.0"
 
+"@storybook/manager-api@8.2.10":
+  version "8.2.10"
+  resolved "https://registry.yarnpkg.com/@storybook/manager-api/-/manager-api-8.2.10.tgz#9201f5f59f6dd4f6969e99ed07c174172099df5f"
+  integrity sha512-IR4fuLX95nPjykxsqMcohEsK+KVbDFXslhD0rknZH46xu7cJ0rkhD21din+jHQI6W0FTanJpBUVqbRmg8yzm0Q==
+
 "@storybook/nextjs@^8.0.6":
   version "8.0.6"
   resolved "https://registry.yarnpkg.com/@storybook/nextjs/-/nextjs-8.0.6.tgz#9fa2589d92c8b5c80cde7491998161e5d91af17b"
@@ -5061,6 +5071,11 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
+"@storybook/preview-api@8.2.10":
+  version "8.2.10"
+  resolved "https://registry.yarnpkg.com/@storybook/preview-api/-/preview-api-8.2.10.tgz#6434269e30af9de2d056ac0da29c1e98e16d94ce"
+  integrity sha512-GI0kmN4Ni7YPjBNPlYEtijDg/CoyM9EJK3GREhtOENRD52R3uO2fRBEDdHAVHcWnzTOD/LrbA0YZX0wH4rjsfg==
+
 "@storybook/preview@8.0.6":
   version "8.0.6"
   resolved "https://registry.yarnpkg.com/@storybook/preview/-/preview-8.0.6.tgz#c08acb9f081e99428fd6729882c5abbbfe280e03"
@@ -5084,7 +5099,12 @@
   resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-8.0.6.tgz#5d359455960f7c3e4cdaa548ac1b657cb028d47c"
   integrity sha512-NC4k0dBIypvVqwqnMhKDUxNc1OeL6lgspn8V26PnmCYbvY97ZqoGQ7n2a5Kw/kubN6yWX1nxNkV6HcTRgEnYTw==
 
-"@storybook/react@8.0.6", "@storybook/react@^8.0.6":
+"@storybook/react-dom-shim@8.2.10":
+  version "8.2.10"
+  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-8.2.10.tgz#5374b468030cc0ecd49a3a2a59382896cc89a00e"
+  integrity sha512-SYdXx6KppAEt/KG5NjGO8BWBxBoiSNEpMvoOMgMijV7QxL/ElSabYotXQDMUoTrklIFpjgBIM6GaL2kHYv9qVQ==
+
+"@storybook/react@8.0.6":
   version "8.0.6"
   resolved "https://registry.yarnpkg.com/@storybook/react/-/react-8.0.6.tgz#22c5e8959e32bb5e324deca66be1a1880b0bd9e6"
   integrity sha512-A1zivNti15nHkJ6EcVKpxKwlDkyMb5MlJMUb8chX/xBWxoR1f5R8eI484rhdPRYUzBY7JwvgZfy4y/murqg6hA==
@@ -5095,6 +5115,33 @@
     "@storybook/preview-api" "8.0.6"
     "@storybook/react-dom-shim" "8.0.6"
     "@storybook/types" "8.0.6"
+    "@types/escodegen" "^0.0.6"
+    "@types/estree" "^0.0.51"
+    "@types/node" "^18.0.0"
+    acorn "^7.4.1"
+    acorn-jsx "^5.3.1"
+    acorn-walk "^7.2.0"
+    escodegen "^2.1.0"
+    html-tags "^3.1.0"
+    lodash "^4.17.21"
+    prop-types "^15.7.2"
+    react-element-to-jsx-string "^15.0.0"
+    semver "^7.3.7"
+    ts-dedent "^2.0.0"
+    type-fest "~2.19"
+    util-deprecate "^1.0.2"
+
+"@storybook/react@^8.2.10":
+  version "8.2.10"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-8.2.10.tgz#90baa4cdb2db67e052e92f39f71dde5e60f1103e"
+  integrity sha512-p1E/uzob115z9NtOFrLTWH7ki0tsg9e0FB4p2ynQZCBdl12tbiDUG3Ee61JihZVzp7wyBJXve07GRbkIhzFbWQ==
+  dependencies:
+    "@storybook/components" "8.2.10"
+    "@storybook/global" "^5.0.0"
+    "@storybook/manager-api" "8.2.10"
+    "@storybook/preview-api" "8.2.10"
+    "@storybook/react-dom-shim" "8.2.10"
+    "@storybook/theming" "8.2.10"
     "@types/escodegen" "^0.0.6"
     "@types/estree" "^0.0.51"
     "@types/node" "^18.0.0"
@@ -5146,6 +5193,11 @@
     "@storybook/client-logger" "8.0.6"
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
+
+"@storybook/theming@8.2.10":
+  version "8.2.10"
+  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-8.2.10.tgz#3c67da824d278e67d0f50ad256656667ac5da62a"
+  integrity sha512-2FdDziA/gjzfTWmnFVksACSANOGV9Pw6V0gJCtdz5muQSo+RN6wLVNt7gAlHC6/tsGoI5bZf1FfWuPBNVgfXGA==
 
 "@storybook/types@8.0.6":
   version "8.0.6"
