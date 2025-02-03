@@ -19373,10 +19373,10 @@ yocto-queue@^1.0.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-1.0.0.tgz#7f816433fb2cbc511ec8bf7d263c3b58a1a3c251"
   integrity sha512-9bnSc/HEW2uRy67wc+T8UwauLuPJVn28jb+GtJY16iiKWyvmYJRXVT4UamsAEGQfPohgr2q4Tq0sQbQlxTfi1g==
 
-zodiac-roles-deployments@^2.2.5:
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/zodiac-roles-deployments/-/zodiac-roles-deployments-2.2.5.tgz#4739e54b82d48212711c16c2c4d9b185ea4cf6fe"
-  integrity sha512-fv09LzKoL996W0pY7T2Na2hE3v5VQPQGN7/UckL+aTyBZRAyjz4ZKHbdQDLUzQAzp7l+6PC4JB2WnpeDanC3Hg==
+zodiac-roles-deployments@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/zodiac-roles-deployments/-/zodiac-roles-deployments-2.4.0.tgz#4a0ab85c5ee7a4443d1b26cceebfa70d61ce6553"
+  integrity sha512-kdD4UKoWAF7YMgnFA8Gw3ZHvmkwssxFT8Q+mKBAUHBhCzl2qS6FI+bcW/yOsNnOS79Ba3dVR36B8oG50rAA5gg==
 
 zwitch@^2.0.0:
   version "2.0.4"
